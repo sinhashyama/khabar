@@ -1,0 +1,54 @@
+{
+    "Epaper": {
+        "name": "Dainik Jagran",
+        "InitialURL": "http://digitalimages.bhaskar.com/epaperpdf/",
+        "MainEdition": "delhi",
+        "PublishLocation": {
+            "state": [
+                      {
+                      "stateName": "UP",
+                      "stateCode": "",
+                      "superCity": [
+                                    {
+                                    "name": "",
+                                    "superCityCode": "",
+                                    "city": [
+                                             {
+                                             "cityName": "Lucknow",
+                                             "cityCode": "LUCKNOW CITY NEWS",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Agra",
+                                             "cityCode": "AGRA CITY NEWS",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Kanpur",
+                                             "cityCode": "",
+                                             "isInPublication": "false"
+                                             }                                             ]
+                                    }
+                                    ]
+                      },
+                      {
+                      "stateName": "Jammu",
+                      "stateCode": "",
+                      "superCity": [
+                                    {
+                                    "name": "",
+                                    "superCityCode": "",
+                                    "city": [
+                                             {
+                                             "cityName": "Jammu",
+                                             "cityCode": "JAMMU",
+                                             "isInPublication": "true"
+                                             }
+                                             ]
+                                    }
+                                    ]
+                      }
+                      ]
+        }
+    }
+}

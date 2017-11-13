@@ -1,0 +1,305 @@
+{
+    "Epaper": {
+        "name": "Dainik Jagran",
+        "InitialURL": "http://epaper.jagran.com/epaperimages/",
+        "MainEdition": "delhi",
+        "PublishLocation": {
+            "state": [
+                      {
+                      "stateName": "UP",
+                      "stateCode": " ",
+                      "superCity": [
+                                    {
+                                    "name": "Agra",
+                                    "superCityCode": "agra",
+                                    "city": [
+                                             {
+                                             "cityName": "Agra",
+                                             "cityCode": "agr",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Agra dehat",
+                                             "cityCode": "agd",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Etah",
+                                             "cityCode": "mai",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Firozabad",
+                                             "cityCode": "mai",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Mainpuri",
+                                             "cityCode": "mai",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Mathura",
+                                             "cityCode": "mat",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Mathura Dehat",
+                                             "cityCode": "mat",
+                                             "isInPublication": "true"
+                                             }
+                                             ]
+                                    },
+                                    {
+                                    "name": "Aligarh",
+                                    "superCityCode": "aligarh",
+                                    "city": [
+                                             {
+                                             "cityName": "Aligarh",
+                                             "cityCode": "ali",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Hathras",
+                                             "cityCode": "hat",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Janpad",
+                                             "cityCode": "jad",
+                                             "isInPublication": "true"
+                                             }
+                                             ]
+                                    }
+                                    ]
+                      },
+                      {
+                      "stateName": "Bihar",
+                      "stateCode": " ",
+                      "superCity": [
+                                    {
+                                    "name": "Patna Nagar",
+                                    "superCityCode": "patna",
+                                    "city": [
+                                             {
+                                             "cityName": "Patna",
+                                             "cityCode": "pat",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Begusarai",
+                                             "cityCode": "bux",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Bhabhua",
+                                             "cityCode": "bbu",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Biharsarif",
+                                             "cityCode": "bih",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Buxar",
+                                             "cityCode": "bux",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Ara",
+                                             "cityCode": "bux",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Sasaram",
+                                             "cityCode": "sas",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Siwan",
+                                             "cityCode": "gpl",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Saran",
+                                             "cityCode": "bux",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Jehanabad",
+                                             "cityCode": "jeh",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Nawada",
+                                             "cityCode": "bbu",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Nawada",
+                                             "cityCode": "bbu",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Gaya",
+                                             "cityCode": "gya",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Gopalganj",
+                                             "cityCode": "gpl",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Vaishali",
+                                             "cityCode": "bux",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Aurangabad",
+                                             "cityCode": "bbu",
+                                             "isInPublication": "true"
+                                             }
+                                             ]
+                                    },
+                                    {
+                                    "name": "Muzaffarpur",
+                                    "superCityCode": "muzaffarpur",
+                                    "city": [
+                                             {
+                                             "cityName": "Bagha",
+                                             "cityCode": "bgh",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Betiah",
+                                             "cityCode": "bet",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Madhubani",
+                                             "cityCode": "mdb",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Motihari",
+                                             "cityCode": "mth",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Muzaffarpur",
+                                             "cityCode": "muz",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Samstipur",
+                                             "cityCode": "sam",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Sitamarhi",
+                                             "cityCode": "smt",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Darbhanga",
+                                             "cityCode": "drg",
+                                             "isInPublication": "true"
+                                             }
+                                             ]
+                                    }
+                                    ]
+                      },
+                      {
+                      "stateName": "Jharkhand",
+                      "stateCode": " ",
+                      "superCity": [
+                                    {
+                                    "name": "Dhanbad",
+                                    "superCityCode": "dhanbad",
+                                    "city": [
+                                             {
+                                             "cityName": "Asansol",
+                                             "cityCode": "asn",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Bokaro",
+                                             "cityCode": "bok",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Deoghar",
+                                             "cityCode": "dav",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Dhanbad",
+                                             "cityCode": "dbd",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Dumka",
+                                             "cityCode": "dum",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Giridih",
+                                             "cityCode": "gir",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Godda",
+                                             "cityCode": "god",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Jamtara",
+                                             "cityCode": "jam",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Santhal",
+                                             "cityCode": "san",
+                                             "isInPublication": "true"
+                                             }
+                                             ]
+                                    },
+                                    {
+                                    "name": "Jamshedpur",
+                                    "superCityCode": "jamshedpur",
+                                    "city": [
+                                             {
+                                             "cityName": "BHUNESHWAR",
+                                             "cityCode": "bhu",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "CHAIBASA",
+                                             "cityCode": "cha",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "GHATSHILA",
+                                             "cityCode": "gha",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Jamshedpur",
+                                             "cityCode": "jsp",
+                                             "isInPublication": "true"
+                                             },
+                                             {
+                                             "cityName": "Rourkela",
+                                             "cityCode": "raw",
+                                             "isInPublication": "true"
+                                             }
+                                             ]
+                                    }
+                                    ]
+                      }
+                      ]
+        }
+    }
+}

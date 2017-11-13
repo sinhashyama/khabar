@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16D32" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="City" representedClassName="City" syncable="YES">
+        <attribute name="cityName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PaperCityCode" representedClassName="PaperCityCode" syncable="YES">
+        <attribute name="cityName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="codeName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="paperName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PaperName" representedClassName="PaperName" syncable="YES">
+        <attribute name="epaperName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="initialLink" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isPublishing" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="timeToPublish" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="State" representedClassName="State" syncable="YES"/>
+    <entity name="SuperCity" representedClassName="SuperCity" syncable="YES">
+        <attribute name="superCityName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="PaperName" positionX="-18" positionY="27" width="128" height="105"/>
+        <element name="State" positionX="36" positionY="108" width="128" height="45"/>
+        <element name="City" positionX="9" positionY="72" width="128" height="60"/>
+        <element name="SuperCity" positionX="18" positionY="81" width="128" height="60"/>
+        <element name="PaperCityCode" positionX="27" positionY="90" width="128" height="90"/>
+    </elements>
+</model>
