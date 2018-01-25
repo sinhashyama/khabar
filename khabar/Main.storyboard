@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="p0l-ev-lRy">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="p0l-ev-lRy">
     <device id="ipad9_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -63,11 +63,11 @@
                         <viewControllerLayoutGuide type="bottom" id="oK0-cY-naT"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Dfk-gf-G3C">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l1U-Yl-6i1">
-                                <rect key="frame" x="64" y="93" width="233" height="52"/>
+                                <rect key="frame" x="60" y="73" width="233" height="52"/>
                                 <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="233" id="knu-J9-F9t"/>
@@ -82,7 +82,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I91-V8-2IG">
-                                <rect key="frame" x="64" y="183" width="233" height="51"/>
+                                <rect key="frame" x="60" y="163" width="233" height="51"/>
                                 <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="51" id="mBZ-O0-ynj"/>
@@ -96,7 +96,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MWm-TR-CyU">
-                                <rect key="frame" x="64" y="291" width="233" height="47"/>
+                                <rect key="frame" x="60" y="271" width="233" height="47"/>
                                 <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="47" id="ioM-Gu-gIQ"/>
@@ -110,7 +110,7 @@
                                 </connections>
                             </button>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3FW-OJ-dK5">
-                                <rect key="frame" x="20" y="452" width="317" height="296"/>
+                                <rect key="frame" x="16" y="432" width="317" height="215"/>
                                 <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="317" id="U9k-YJ-Rk2"/>
@@ -121,7 +121,7 @@
                                 </connections>
                             </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HE9-Qh-fkm">
-                                <rect key="frame" x="141" y="380" width="78" height="64"/>
+                                <rect key="frame" x="137" y="360" width="78" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="4ZG-Qv-E9m"/>
                                     <constraint firstAttribute="width" constant="78" id="vjN-NY-BUh"/>
@@ -173,7 +173,7 @@
                         <viewControllerLayoutGuide type="bottom" id="utS-Mw-apT"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Za3-Me-HWU">
-                        <rect key="frame" x="0.0" y="0.0" width="703" height="768"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -196,7 +196,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="45" translatesAutoresizingMaskIntoConstraints="NO" id="HdP-0j-QSr">
-                                <rect key="frame" x="141" y="177" width="742" height="341"/>
+                                <rect key="frame" x="141" y="289" width="742" height="341"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="102" translatesAutoresizingMaskIntoConstraints="NO" id="d1d-W0-rHe">
                                         <rect key="frame" x="0.0" y="0.0" width="742" height="216"/>
@@ -299,12 +299,6 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;Early in life I had noticed that no event is ever correctly reported in a newspaper.&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cd0-yb-k5L">
-                                <rect key="frame" x="141" y="574" width="742" height="79"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
-                                <color key="textColor" red="0.99993699789047241" green="1" blue="0.99987250566482544" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Khabar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="frV-SM-EEn">
                                 <rect key="frame" x="396" y="55" width="209" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -312,18 +306,41 @@
                                 <color key="textColor" red="0.9773133397102356" green="0.98371618986129761" blue="0.94482588768005371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;Early in life I had noticed that no event is ever correctly reported in a newspaper.&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cd0-yb-k5L">
+                                <rect key="frame" x="50" y="625" width="600" height="123"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="123" id="8H6-UG-7zj"/>
+                                    <constraint firstAttribute="width" constant="600" id="Iyh-uF-8hD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <color key="textColor" red="0.99993699789047241" green="1" blue="0.99987250566482544" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j5b-jP-Kq1">
+                                <rect key="frame" x="726" y="625" width="278" height="123"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="278" id="lHh-LP-ySO"/>
+                                    <constraint firstAttribute="height" constant="123" id="tXi-Dv-wrv"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="dataSource" destination="vqI-U9-hg6" id="30x-av-uCM"/>
+                                    <outlet property="delegate" destination="vqI-U9-hg6" id="ziQ-di-jNr"/>
+                                </connections>
+                            </pickerView>
                         </subviews>
                         <color key="backgroundColor" red="0.20392156862745098" green="0.24705882352941178" blue="0.36078431372549019" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="ATH-Cx-D2L" firstAttribute="top" secondItem="HdP-0j-QSr" secondAttribute="bottom" constant="138" id="FvA-Gg-vYH"/>
+                            <constraint firstItem="ATH-Cx-D2L" firstAttribute="top" secondItem="j5b-jP-Kq1" secondAttribute="bottom" constant="20" id="I7x-tx-YWf"/>
                             <constraint firstItem="HdP-0j-QSr" firstAttribute="leading" secondItem="clv-fT-fbN" secondAttribute="leadingMargin" constant="121" id="PJk-5K-Dy0"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Cd0-yb-k5L" secondAttribute="trailing" constant="121" id="VYF-HV-3Ab"/>
-                            <constraint firstItem="Cd0-yb-k5L" firstAttribute="leading" secondItem="clv-fT-fbN" secondAttribute="leadingMargin" constant="121" id="mZX-yu-hcK"/>
-                            <constraint firstItem="ATH-Cx-D2L" firstAttribute="top" secondItem="Cd0-yb-k5L" secondAttribute="bottom" constant="115" id="ush-al-L3d"/>
+                            <constraint firstItem="Cd0-yb-k5L" firstAttribute="leading" secondItem="clv-fT-fbN" secondAttribute="leadingMargin" constant="30" id="Y5j-5C-6EC"/>
+                            <constraint firstItem="j5b-jP-Kq1" firstAttribute="trailing" secondItem="clv-fT-fbN" secondAttribute="trailingMargin" id="Yzn-Hv-UYQ"/>
+                            <constraint firstItem="ATH-Cx-D2L" firstAttribute="top" secondItem="Cd0-yb-k5L" secondAttribute="bottom" constant="20" id="jFR-5d-Ytu"/>
                             <constraint firstAttribute="trailingMargin" secondItem="HdP-0j-QSr" secondAttribute="trailing" constant="121" id="wEa-y2-pjZ"/>
-                            <constraint firstItem="Cd0-yb-k5L" firstAttribute="top" secondItem="hGy-oJ-0Fp" secondAttribute="bottom" constant="56" id="zcT-AX-0zR"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="dataSelector" destination="j5b-jP-Kq1" id="v8g-O5-TgG"/>
                         <outlet property="selectCity" destination="jDB-Cm-bwO" id="HZS-xG-ZAp"/>
                         <outlet property="selectNewsPaper" destination="mNY-04-TDV" id="kwd-MR-s2G"/>
                         <outlet property="selectState" destination="a8m-Tp-wXr" id="9fK-sJ-Kox"/>
@@ -334,7 +351,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HhL-T9-m1a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="589" y="-1091"/>
+            <point key="canvasLocation" x="588.8671875" y="-1091.40625"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="VyM-pm-LtT">
@@ -342,7 +359,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="p0l-ev-lRy" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="WzO-22-N57">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="1024" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

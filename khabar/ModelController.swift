@@ -45,6 +45,7 @@ class ModelController: NSObject, UIPageViewControllerDataSource {
         let dataViewController = storyboard.instantiateViewController(withIdentifier: "DataViewController") as! DataViewController
         dataViewController.dataObject = self.pageData[index]
         dataViewController.urlString = self.linkArray[index]
+        dataViewController.paperLinkArray = self.linkArray
         return dataViewController
     }
 

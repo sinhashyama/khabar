@@ -28,7 +28,7 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
         // Do any additional setup after loading the view, typically from a nib.
         // Configure the page view controller and add it as a child view controller.
         if !isFirstLaunch {
-            let userselect = userSelection.sharedInstance
+            //let _ = userSelection.sharedInstance
             self.pageViewController = UIPageViewController(transitionStyle: .pageCurl, navigationOrientation: .horizontal, options: nil)
             self.pageViewController!.delegate = self
             if preVC != nil {

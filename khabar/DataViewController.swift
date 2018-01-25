@@ -15,13 +15,18 @@ class DataViewController: UIViewController, WKNavigationDelegate {
     //@IBOutlet weak var dataLabel: UILabel!
     var dataObject: String = ""
     var urlString: String = ""
+    var paperLinkArray: [String] = []
     var webView: WKWebView!
+    var downloadSession:URLSession?
+    var activeDownloads: [URL: Download] = [:]
     
     @IBOutlet weak var activityMonitor: UIActivityIndicatorView!
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        downloadSession = DownloadManager.shared.activate()
+        letsStartDownloading()
         let url = URL(string: urlString)!
         webView = WKWebView(frame: self.view.frame)
         let request = URLRequest(url: url)
@@ -30,6 +35,7 @@ class DataViewController: UIViewController, WKNavigationDelegate {
         self.view.addSubview(webView)
         self.view.sendSubview(toBack: webView)
     }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -39,6 +45,7 @@ class DataViewController: UIViewController, WKNavigationDelegate {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         //self.dataLabel!.text = dataObject
+        
     }
 
      func webView(_ webView: WKWebView, didFailProvisionalNavigation navigation: WKNavigation!, withError error: Error) {
@@ -46,7 +53,6 @@ class DataViewController: UIViewController, WKNavigationDelegate {
     }
      func webView(_ webView: WKWebView, didStartProvisionalNavigation navigation: WKNavigation!) {
         print("Strat to load")
-        
         activityMonitor.startAnimating()
     }
      func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
@@ -73,11 +79,27 @@ class DataViewController: UIViewController, WKNavigationDelegate {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showSettings" {
-            if let destiantionVC = segue.destination as? MasterViewController {
+            //if let _ = segue.destination as? MasterViewController {
                 //set papername , statename, cityname to instance of modalController(create init value with parameter) from rootViewController
                 //self.splitViewController?.preferredDisplayMode = .primaryHidden
                 //self.splitViewController?.presentsWithGesture = false
-            }
+            //}
         }
+    }
+    
+    func startBackGroundDownload(_ paperPageLinkUrl: String) {
+        let download = Download(paperPageLinkUrl: paperPageLinkUrl)
+        let url = URL(string: paperPageLinkUrl)
+        download.task = downloadSession?.downloadTask(with: url!)
+        download.task!.resume()
+        download.isDownloading = true
+        activeDownloads[url!] = download
+    }
+    
+    func letsStartDownloading(){
+        for link in paperLinkArray {
+            startBackGroundDownload(link)
+        }
+        
     }
 }

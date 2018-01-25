@@ -12,7 +12,7 @@ final class utilities:NSObject {
     
     
     func loadJSON(filename:String) -> NSDictionary {
-        let bundle = Bundle(for: object_getClass(self))
+        let bundle = Bundle(for: object_getClass(self)!)
         let path = bundle.path(forResource: filename, ofType: "JSON")
         print(filename)
         var response = try? String(contentsOfFile:path!, encoding: String.Encoding.utf8)
